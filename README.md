@@ -61,9 +61,11 @@ Verify the client id running --->``` Open your browser and type http://localhost
 --> ``` docker run --network=demo --name mongodb -d -p 27017:27017 -v ~/opt/data:/data/db mongo:latest ```
 
 
-4. cd ../..
-cd mern/backend 
-vim Dockerfile 
+4. ```bash
+cd ../..
+cd mern/backend
+vim Dockerfile
+ 
 
 Dockerfile:
 ```
